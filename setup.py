@@ -39,6 +39,7 @@ setup(
     author='Jeff Lindsay',
     author_email='jeff.lindsay@twilio.com',
     description='Lightweight service framework',
+    url='https://github.com/ryanlarrabure/gservice',
     packages=find_packages(),
     install_requires=['gevent==0.13.3', 'setproctitle', 'nose', 'python-daemon',],
     data_files=[],
